@@ -1,0 +1,104 @@
+{
+  "cfl_ratio": 0.8,
+  "cpu_line_bytes": 64,
+  "cpu_signature": "x86_64::2::Intel(R) Xeon(R) CPU @ 2.00GHz::L64",
+  "dt": 5.06645495621457e-07,
+  "dt_max": 6.333068695268212e-07,
+  "dx": 0.001949317738791423,
+  "energy_overlapped": {
+    "0": 0.03141592593096303,
+    "100": 0.03101839819189373,
+    "200": 0.03063097462165984,
+    "300": 0.030253292887329863
+  },
+  "energy_serialized": {
+    "0": 0.03141592593096303,
+    "100": 0.03101839819189373,
+    "200": 0.03063097462165984,
+    "300": 0.030253292887329863
+  },
+  "false_sharing_ratio_stride1_vs_8": 3.9462587746009,
+  "github_username": "brainmegamind303-droid",
+  "global_interior": [
+    512,
+    512
+  ],
+  "gpu_overlapped_ms": 2766.9883350004625,
+  "gpu_serialized_ms": 3135.2929649992802,
+  "gpu_uuid": "GPU-630d1c9f-e3a2-737a-e851-326a7515eeee",
+  "grid": [
+    2,
+    2
+  ],
+  "halo_traffic": {
+    "column_bytes_fetched_L2": 8192,
+    "column_bytes_useful": 2048,
+    "column_sectors_32B": 256,
+    "full_array_bytes": 532512,
+    "packed_bytes_per_step_per_rank": 8192,
+    "row_stride_bytes": 2064
+  },
+  "instance_seed": 4986131068413068951,
+  "kappa_max": 1.4999993800817197,
+  "lambda_damp": 0.15,
+  "llvm_counts": {
+    "ir_lines": 285,
+    "load_i64": 12,
+    "store_i64": 18,
+    "volatile": 0
+  },
+  "local_shape": [
+    258,
+    258
+  ],
+  "manifest_sha256": "ee4264e05dbb0b12ed59fd5b8eeb28c607beb06f51ad0383406c88e6f1caee8e",
+  "max_diff": 0.0,
+  "mpi_ranks": 4,
+  "overlap_speedup": 1.1331066796849203,
+  "padding_ratio_stride16_vs_8": 0.9543284622874195,
+  "ptx_counts": {
+    "bar.sync": 1,
+    "ld.shared.f64": 5,
+    "st.shared.f64": 5
+  },
+  "shm_iters": 40000000,
+  "shm_strides": {
+    "1": {
+      "bytes_spacing": 8,
+      "cpu_line_index_per_rank": [
+        2116794780677,
+        2116794780677,
+        2116794780677,
+        2116794780677
+      ],
+      "distinct_cpu_lines": 1,
+      "ns_per_update": 14.774323049999794,
+      "seconds": 0.5909729219999917
+    },
+    "16": {
+      "bytes_spacing": 128,
+      "cpu_line_index_per_rank": [
+        2116794780677,
+        2116794780679,
+        2116794780681,
+        2116794780683
+      ],
+      "distinct_cpu_lines": 4,
+      "ns_per_update": 3.572892150000939,
+      "seconds": 0.14291568600003757
+    },
+    "8": {
+      "bytes_spacing": 64,
+      "cpu_line_index_per_rank": [
+        2116794780677,
+        2116794780678,
+        2116794780679,
+        2116794780680
+      ],
+      "distinct_cpu_lines": 4,
+      "ns_per_update": 3.743880950000289,
+      "seconds": 0.14975523800001156
+    }
+  },
+  "steps": 300
+}
