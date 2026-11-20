@@ -1,0 +1,105 @@
+{
+  "github_username": "brainmegamind303-droid",
+  "gpu_uuid": "GPU-fd8bb1a0-f2bf-2b19-956a-0e2661ff8a08",
+  "gpu_name": "Tesla T4",
+  "compute_capability": "7.5",
+  "instance_seed": 2404270034748271502,
+  "mpi_ranks": 4,
+  "cartesian_dims": [
+    2,
+    2
+  ],
+  "global_grid": [
+    512,
+    512
+  ],
+  "local_padded_shape": [
+    258,
+    258
+  ],
+  "steps": 400,
+  "dx": 0.001949317738791423,
+  "dt": 3.1665330389724216e-06,
+  "kappa_max": 0.23999727931416737,
+  "dt_max": 3.958211169753244e-06,
+  "lambda_damp": 0.15,
+  "serialized_ms": 1050.654416000043,
+  "overlapped_ms": 2164.406989000099,
+  "serialized_cuda_event_ms": 1047.83447265625,
+  "overlapped_cuda_event_ms": 2164.0152893066406,
+  "parity_max_diff": 0.0,
+  "parity_passed": true,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1,
+    "st.shared (any)": 5,
+    "ld.shared (any)": 5
+  },
+  "ptx_audit_passed": true,
+  "energy_trace_serialized": [
+    {
+      "step": 0,
+      "energy": 0.08402847494027543,
+      "l2_norm": 0.24324633554460756,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.08401832107920151,
+      "l2_norm": 0.24096231241849503,
+      "l2_residual": 10.535289716728006
+    },
+    {
+      "step": 200,
+      "energy": 0.0840106801840865,
+      "l2_norm": 0.23875010443627123,
+      "l2_residual": 10.177060015553348
+    },
+    {
+      "step": 300,
+      "energy": 0.08400334459782982,
+      "l2_norm": 0.2366053901561041,
+      "l2_residual": 9.845170733932392
+    },
+    {
+      "step": 400,
+      "energy": 0.08399604464774596,
+      "l2_norm": 0.23452430696454615,
+      "l2_residual": 9.536125815870104
+    }
+  ],
+  "energy_trace_overlapped": [
+    {
+      "step": 0,
+      "energy": 0.08402847494027543,
+      "l2_norm": 0.24324633554460756,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.08401832107920151,
+      "l2_norm": 0.24096231241849503,
+      "l2_residual": 10.535289716728006
+    },
+    {
+      "step": 200,
+      "energy": 0.0840106801840865,
+      "l2_norm": 0.23875010443627123,
+      "l2_residual": 10.177060015553348
+    },
+    {
+      "step": 300,
+      "energy": 0.08400334459782982,
+      "l2_norm": 0.2366053901561041,
+      "l2_residual": 9.845170733932392
+    },
+    {
+      "step": 400,
+      "energy": 0.08399604464774596,
+      "l2_norm": 0.23452430696454615,
+      "l2_residual": 9.536125815870104
+    }
+  ],
+  "energy_monotonic_decreasing": true
+}
